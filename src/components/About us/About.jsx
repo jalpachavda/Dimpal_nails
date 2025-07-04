@@ -36,7 +36,7 @@ const About = () => {
                 <span className="subtitle__one">About Us</span>
                 <h2>The Heart Behind the Art</h2>
                 <p>
-                  Welcome to DN Stusio, where nail care meets luxury. We are a premium nail art studio dedicated to bringing your nail dreams to life with top-tier treatments and the latest trends in nail fashion.
+                  Welcome to DN Studio, where nail care meets luxury. We are a premium nail art studio dedicated to bringing your nail dreams to life with top-tier treatments and the latest trends in nail fashion.
                 </p>
                 <p>At our studio, we specialize in all types of nail art, from elegant classics to bold, artistic designs. Whether you're looking for simple grooming or glamorous nail extensions, we offer a full range of services tailored to your style and personality.</p>
               </div>

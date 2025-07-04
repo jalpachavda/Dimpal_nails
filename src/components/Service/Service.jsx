@@ -33,12 +33,16 @@ const Service = () => {
                   'Shellac Polish',
                   'Line Art Nails',
                   'Regular Polish',
-                  'Acrylic Polish',
+                  'Acrylic extention',
                   'Dip Powder Nails',
                   'Marble Nails',
+                  'Press on Extention',
+                  'soft gel extention ',
                   'Glitter Polish',
                   'Matte Polish',
                   'Chrome Nails',
+                  'Cat Eye Nails',
+                  'Gel Polish',
                 ].map((label, index) => (
                   <li className="nav-item" role="presentation" key={index}>
                     <button

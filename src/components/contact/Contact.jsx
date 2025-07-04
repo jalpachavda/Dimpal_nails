@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const Contact = () => {
   return (
@@ -18,17 +18,36 @@ const Contact = () => {
                 </div>
                 <div className="contact__area-info-item-content">
                   <span>Call Now</span>
-                  <h5><a href="tel:9275120108">92751 20108</a></h5>
+                  <h5>
+                    <a href="tel:9275120108">92751 20108</a>
+                  </h5>
                 </div>
               </div>
 
               <div className="contact__area-info-item">
                 <div className="contact__area-info-item-icon">
-                <i class="fab fa-instagram"></i>
+                  <i class="fab fa-instagram"></i>
                 </div>
                 <div className="contact__area-info-item-content">
                   <span>instagram</span>
-                  <h5><a href="https://www.instagram.com/dimpal_nails_/">dimpal_nails_</a></h5>
+                  <h5>
+                    <a href="https://www.instagram.com/dimpal_nails_/">
+                      dimpal_nails_
+                    </a>
+                  </h5>
+                </div>
+              </div>
+              <div className="contact__area-info-item">
+                <div className="contact__area-info-item-icon">
+                  <i className="fas fa-envelope"></i>
+                </div>
+                <div className="contact__area-info-item-content">
+                  <span>Email</span>
+                  <h5>
+                    <a href="mailto:dimpalnails@gmail.com">
+                      dimpalnails@gmail.com
+                    </a>
+                  </h5>
                 </div>
               </div>
 
@@ -38,7 +57,11 @@ const Contact = () => {
                 </div>
                 <div className="contact__area-info-item-content">
                   <span>Address</span>
-                  <h5><a href="#contact">Umiya Township, New 80ft Road, Surendranagar</a></h5>
+                  <h5>
+                    <a href="#contact">
+                      Umiya Township, New 80ft Road, Surendranagar
+                    </a>
+                  </h5>
                 </div>
               </div>
             </div>

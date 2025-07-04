@@ -22,8 +22,10 @@ import Gallery19 from '../../assets/img/blog/Gallery-19.png';
 import Gallery20 from '../../assets/img/blog/Gallery-20.jpg';
 import Gallery21 from '../../assets/img/blog/Gallery-21.webp';
 import Gallery22 from '../../assets/img/blog/Gallery-22.webp';
-
-
+import Gallery24 from '../../assets/img/blog/Gallery24.png';
+import Gallery25 from "../../assets/img/blog/Gallery25.png";
+import Gallery23 from '../../assets/img/blog/Gallery-23.png'; 
+import Gallery26 from '../../assets/img/blog/Gallery-9.png';
 const SeeMore = () => {
   return (
     <div className="products__area section-padding">
@@ -61,6 +63,7 @@ const SeeMore = () => {
             <img src={Gallery3} alt="Gallery 2" />
             <img src={Gallery4} alt="Gallery 3" />
             <img src={Gallery5} alt="Gallery 4" />
+            <img src={Gallery23} alt="Gallery 23" />
           </div>
           <div className="column">
             <img src={Gallery6} alt="Gallery 5" />
@@ -68,6 +71,7 @@ const SeeMore = () => {
             <img src={Gallery8} alt="Gallery 7" />
             <img src={Gallery9} alt="Gallery 8" />
             <img src={Gallery10} alt="Gallery 9" />
+            <img src={Gallery24} alt="Gallery 24" />
           </div>
           <div className="column">
             <img src={Gallery11} alt="Gallery 11" />
@@ -77,13 +81,15 @@ const SeeMore = () => {
             <img src={Gallery15} alt="Gallery 10" />
             <img src={Gallery16} alt="Gallery 15" />
             <img src={Gallery17} alt="Gallery 17" />
+             <img src={Gallery25} alt="Gallery 4" />
           </div>
           <div className="column">
             <img src={Gallery18} alt="Gallery 16" />
             <img src={Gallery19} alt="Gallery 18" />
             <img src={Gallery20} alt="Gallery 19" />
             <img src={Gallery21} alt="Gallery 20" />
-            <img src={Gallery22} alt="Gallery 21" />           
+            <img src={Gallery22} alt="Gallery 21" />     
+             <img src={Gallery26} alt="Gallery 26" />            
           </div>
         </div>
       </div>

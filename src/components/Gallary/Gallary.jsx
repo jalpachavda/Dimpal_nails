@@ -9,6 +9,8 @@ import Gallery7 from '../../assets/img/blog/Gallery-7.png';
 import Gallery8 from '../../assets/img/blog/Gallery-16.jpg';
 import Gallery9 from '../../assets/img/blog/Gallery-18.jpg';
 import Gallery10 from '../../assets/img/blog/Gallery-20.jpg';
+import Gallery23 from '../../assets/img/blog/Gallery-23.png'; 
+
 import { Link } from 'react-router-dom';
 const Gallery = () => {
   return (
@@ -29,6 +31,7 @@ const Gallery = () => {
           <div className="column">
             <img src={Gallery1} alt="Gallery 1" />
             <img src={Gallery2} alt="Gallery 2" />
+              <img src={Gallery23} alt="Gallery 23" />
           </div>
           <div className="column">
             <img src={Gallery3} alt="Gallery 3" />

@@ -5,7 +5,7 @@ import About from "./components/About us/About";
 import Service from "./components/Service/Service";
 import Gallary from "./components/Gallary/Gallary";
 import SeeMore from './components/Gallary/SeeMore';
-import Price from './components/pricing/Priceing';
+// import Price from './components/pricing/Priceing';
 import Contact from './components/contact/Contact';
 import Footer from "./components/Footer/Footer";
 
@@ -21,7 +21,7 @@ function App() {
               <About />
               <Service />
               <Gallary />
-              <Price/>
+              {/* <Price/> */}
               <Contact/>
               <Footer/>
             </>
