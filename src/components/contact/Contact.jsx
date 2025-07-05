@@ -176,7 +176,6 @@ const Contact = () => {
       return;
     }
 
-    // ✅ Success
     console.log("Submitted:", formData);
 fetch("https://formsubmit.co/dimpal.nails@gmail.com", {
       method: "POST",
