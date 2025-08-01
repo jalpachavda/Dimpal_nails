@@ -15,24 +15,6 @@ img {
   transition: all 0.4s ease-out 0s;
 }
 
-a {
-  outline: none;
-  color: inherit;
-  text-decoration: none;
-}
-
-a,
-button,
-i {
-  text-decoration: none;
-  color: inherit;
-}
-
-a:focus,
-a:hover {
-  text-decoration: none;
-  color: inherit;
-}
 
 .section-padding {
   padding: 50px 0px;
@@ -2498,7 +2480,7 @@ Menu Bar
   display: inline-block;
 }
 .header__area-menubar-left-logo a img {
-  max-width: 80px;
+  max-width: 133px;
   position: relative;
   z-index: 999;
   padding: 5px;

@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+// import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
@@ -8,8 +8,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 // import { BrowserRouter } from 'react-router-dom';
 import '@fortawesome/fontawesome-free/css/all.min.css';
+import 'tiny-slider/dist/tiny-slider.css';
 
-import './assets/css/all.css';
 import 'animate.css';
 // import 'magnific-popup/dist/magnific-popup.css';
 // import './assets/css/meanmenu.min.css';

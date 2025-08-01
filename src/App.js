@@ -1,32 +1,26 @@
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+import Aboutpage from "./components/Aboutus/Aboutpage";
 import Home from "./components/Home/Home";
-import About from "./components/About us/About";
-import Service from "./components/Service/Service";
-import Gallary from "./components/Gallary/Gallary";
-import SeeMore from './components/Gallary/SeeMore';
-// import Price from './components/pricing/Priceing';
-import Contact from './components/contact/Contact';
-import Footer from "./components/Footer/Footer";
-
-
+import Property from "./components/Projects/Property";
+import Contactus from "./components/contactus/Contactus";
+import Projectdetails from "./components/Projects/Projectdetails";
 function App() {
   return (
     <Router>
       <div className="App">
         <Routes>
-          <Route path="/" element={
-            <>
-              <Home />
-              <About />
-              <Service />
-              <Gallary />
-              {/* <Price/> */}
-              <Contact/>
-              <Footer/>
-            </>
-          } />
-          <Route path="/gallery" element={<SeeMore />} />
+          <Route
+            path="/"
+            element={
+              <>
+                <Home />
+              </>
+            }
+          />
+          <Route path="/about" element={<Aboutpage />} />
+          <Route path="/Property" element={<Property />} />
+          <Route path="/contact" element={<Contactus />} />
+          <Route path="/Projectdetails" element={<Projectdetails />} />
         </Routes>
       </div>
     </Router>
